@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36025.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingBufferLogging", "RingBufferLogging\RingBufferLogging.csproj", "{421AD82E-67E1-425D-9327-79372363E27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingBufferLogging.Tests", "RingBufferLogging.Tests\RingBufferLogging.Tests.csproj", "{B9C89A54-301F-04FD-EE68-5B0DFD03E09E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421AD82E-67E1-425D-9327-79372363E27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421AD82E-67E1-425D-9327-79372363E27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421AD82E-67E1-425D-9327-79372363E27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421AD82E-67E1-425D-9327-79372363E27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C89A54-301F-04FD-EE68-5B0DFD03E09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C89A54-301F-04FD-EE68-5B0DFD03E09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C89A54-301F-04FD-EE68-5B0DFD03E09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C89A54-301F-04FD-EE68-5B0DFD03E09E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22D921B0-3529-41B7-8F45-6C5AAE41D452}
+	EndGlobalSection
+EndGlobal

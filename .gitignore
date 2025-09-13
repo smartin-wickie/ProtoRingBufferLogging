@@ -1,0 +1,69 @@
+# Visual Studio / .NET common ignores
+
+## Build Folders
+**/bin/*
+**/obj/*
+
+
+## Visual Studio
+/.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## Visual Studio Code
+.vscode/
+
+## NuGet
+*.nupkg
+packages/
+project.lock.json
+package-lock.json
+npm-debug.log
+
+## Azure and Secrets
+secrets.json
+appsettings.*.json
+**/secrets.json
+**/usersecrets/*
+
+## Publish
+publish/
+*.Publish.xml
+*.pubxml
+
+## Runtime
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+## Rider caches
+.idea/
+*.sln.iml
+
+## Logs
+*.log
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon
+
+## Test results
+TestResults/*
+*.trx
+*.coverage
+
+## Dotnet user secrets (if used)
+/.microsoft/usersecrets/*
+
+## Misc
+*.swp
+*.DS_Store
